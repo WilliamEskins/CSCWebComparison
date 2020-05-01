@@ -1,0 +1,73 @@
+
+https://github.com/WilliamEskins/CSCWebComparison
+
+1.Detailed Description about project progress:
+	
+	Our group decided to tackle the performance evaluation part of the project. For the performance evaluation project,
+ we had to select four benchmarks from An Updated Performance Comparison of Virtual Machines and Linux Containers that
+ Dr. Ngo had linked us. We originally had selected CPU-PXZ, Memory Bandwidth—Stream, and HPC-Linpack. We found some of
+ these to be much more difficult than the benchmarks we later picked which were Linpack, Netperf, Stream, and Redis. 
+
+The subtasks of this project originally was to automatically install KVM, Docker, or Singularity on a single CloudLab 
+profile, to automate the install and configure of the selected benchmarks and run the benchmarks, and to automate the 
+entire process within a single CloudLab profile and instantiate/collect results of at least 20 runs. The automation 
+processes were later removed by Dr. Ngo to make it a little more feasible.
+
+We started off this project by creating a GitHub profile with all four of our names and the project description on a readme
+ file. During the quarantine, we have met multiple times using zoom to discuss the next possible steps for our project.
+ We found this method to be the best way to communicate precisely and effectively. At the beginning it felt like as a
+ group we could tackle and run these benchmarks but as we drew closer we found that it was a much more difficult task than
+ what we originally visioned.
+
+During our process of getting four to five benchmarks running (using a fifth to make sure we did not pick four difficult benchmarks)
+ we found that they were repeatedly failing. We weren’t sure if we were supposed to get the containers to use for our benchmarks
+ or if we were just supposed to download them once on the server through commands. We were also having errors logging into docker.
+ The solution came with one of our members asking for help from another team working on the performance evaluation and gathered
+ very useful information from them. 
+
+We managed to get the main Ubuntu to run and we were also in the process of installing the docker files and running them.
+We were not exactly sure whether we were supposed to get run commands to get the docker to run, for example “apt get linpack”,
+ or if we were supposed to have the docker section in github and just run the commands to run each of the tests we had.
+ We found the info that we could use something similar to the repositories we used in class and got past that problem fairly quickly.
+
+As for the final current state of our project, we have collected all the benchmarks and info we should need to get
+ some of these to run using docker. Unfortunately, we are struggling to get a single one to do so. We plan to get all or
+ at least most of them to run for our final deliverable. We believe that by continuing to use zoom and communicating online
+ that this will be a very achievable goal. Collaboration among group members and other groups allowed for further understanding
+ and provoked the most learning.
+
+
+2.Self-assessment about whether the project has met the second deliverable:
+
+	Ian - As of right now our current project is almost finished completion of deliverable 2.
+ We have this technical document, our 4 benchmarks that we have chosen, and we plan to do some sort of recording
+ to post on Piazza by the deadline. We also are very much ready for the 24 hour Q and A that will be hosted on Piazza.
+
+Rachel - Even though we have run into issues, we are working hard to solve them and getting feedback from
+ our group and others running into similar issues coming into the final deliverable. However, we are in the process
+ of the soon completion of deliverable 2 at the time of this recording. 
+
+	William - There have been set backs and we are missing a few of the key points of Deliverable 2. We have come
+ a far way from understanding almost nothing about networking before this class. The Docker server is up and I tried
+ hard to get the test packages to install correctly. It will need more work within the next few days to catch up.
+
+3.Self-assessment and projected milestone about whether the project can make the final deliverable:
+
+	Ian - We believe at this very moment we can definitely finish the project for deliverable three and have it
+ ready to be turned in. But this will of course require more zoom meetings and possibly some questions answered
+ by Dr. Ngo or Other teams that are willing to give some tips. We obviously want to make this project our own though
+ and not a byproduct of other people's work and  information so we have spent a lot of time working within the group
+  figuring out the development on our own. This has potentially affected our progress but I do believe it made the project
+ more of our own.
+
+	Rachel - With continuous feedback and testing, we believe that we will make the final deliverable. Even though it was
+ at first difficult to work effectively with each other over Zoom rather than in person, we have learned to better utilize
+ our resources and are able to discuss with each other frequently by setting up more times for discussion, which is a crucial
+ step for the success of our project. We have a solid foundation for this project and with a little more direction from questions
+ and research, we believe this project will be successful. 
+
+	William - Currently the project is behind our own expected progress but I believe this is mostly due to not being able to
+ interact as well with others and each other except for these Zoom meetings. There was some guidance that helped us along
+ the way greatly and if we continue to work together towards the technical parts of the server we can definitely figure out
+ how to run the different tests by the deliverable date. We have learned a lot of the difficulties and different configurations
+ to use in order to get Docker to run.
